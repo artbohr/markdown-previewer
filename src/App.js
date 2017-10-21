@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import marked from 'marked';
 import './App.css';
-//import {Grid} from 'react-bootstrap';
 
 class App extends Component {
   constructor(props) {
@@ -34,7 +33,7 @@ class App extends Component {
             }}/>
           </div>
         </div>
-      </div >
+      </div>
     );
   }
 }
