@@ -1,0 +1,11 @@
+body {
+  margin: 20px; }
+
+#box_title {
+  color: #007FFF;
+  margin: 10px 0px 30px 5px;
+  font-family: 'Lobster', cursive; }
+
+textarea {
+  width: 500px;
+  resize: none; }
