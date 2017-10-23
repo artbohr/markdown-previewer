@@ -1,6 +1,6 @@
 # GitHub-flavored Markdown Previewer
 
-## Configuration:
+## Local Setup
 clone this repository and *run* these commands:
 
 ```
