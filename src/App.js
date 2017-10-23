@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import marked from 'marked';
 import './App.css';
+import {Grid, Row, Col} from 'react-bootstrap';
 
 class App extends Component {
   constructor(props) {
@@ -18,22 +19,22 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6">
+      <Grid>
+        <Row>
+          <Col md={6}>
             <h1 id="box_title">Markdown</h1>
             <form>
               <textarea rows="26" value={this.state.markdown} onChange={this.handleChange}/>
             </form>
-          </div>
-          <div className="col-md-6">
+          </Col>
+          <Col md={6}>
             <h1 id="box_title">Output</h1>
             <p dangerouslySetInnerHTML={{
               __html: marked(this.state.markdown)
             }}/>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Grid>
     );
   }
 }
