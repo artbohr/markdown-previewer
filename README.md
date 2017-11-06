@@ -1,5 +1,8 @@
 # GitHub-flavored Markdown Previewer
 
+## Live Demo
+https://artbohr.github.io/markdown-previewer
+
 ## Local Setup
 clone this repository and *run* these commands:
 
